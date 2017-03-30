@@ -13,12 +13,12 @@ const SvgPartialFill = React.createClass({
   },
 
   componentWillMount() {
-    this.loadSvg(this.props.src):
+    this.loadSvg(this.props.src)
   },
 
   componentWillReceiveProps(nextProps) {
     if (this.props.src !== nextProps.src) {
-      this.loadSvg(nextProps.src);
+      this.loadSvg(nextProps.src)
     }
   },
 
@@ -51,7 +51,7 @@ const SvgPartialFill = React.createClass({
       }}>
         <div class="svg-inner" style={{
           background: `linear-gradient(to right, ${fill}, ${fill} ${percent}%, transparent ${percent}%)`,
-          clipPath: 'url(#svgPath)';
+          clipPath: 'url(#svgPath)',
           width: '100%',
           height: '100%'
         }}/>
@@ -61,8 +61,10 @@ const SvgPartialFill = React.createClass({
 
   render() {
     return (
-      {this.renderDefs()}
-      {this.renderSvg()}
+      <div>
+        {this.renderDefs()}
+        {this.renderSvg()}
+      </div>
     )
   },
 
