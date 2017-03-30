@@ -1,12 +1,13 @@
 {
-  "name": "svg-partial-fill",
+  "name": "react-svg-partial-fill",
   "version": "1.0.0",
-  "description": "Fill an SVG image by a specified amount",
+  "description": "React component that fills an SVG image by a specified amount",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
+    "react",
     "svg",
     "fill",
     "percentage",
@@ -15,8 +16,9 @@
   "author": "Luke Mitchell",
   "license": "MIT",
   "dependencies": {
-    "react": "^15.4.2",
     "extract-svg-path": "^2.1.0",
-    "parse-svg-path": "^0.1.2"
+    "extract-svg-viewbox": "^1.0.0",
+    "react": "^15.4.2",
+    "normalize-svg-coords": "^1.0.0"
   }
 }
