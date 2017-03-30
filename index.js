@@ -6,11 +6,11 @@ const extract = require('extract-svg-path').parse
 const SvgPartialFill = React.createClass({
   propTypes: {
     svg: React.PropTypes.string.isRequired,
-    width: React.PropTypes.number,
-    height: React.PropTypes.number,
+    width: React.PropTypes.string,
+    height: React.PropTypes.string,
     background: React.PropTypes.string,
     fill: React.PropTypes.string,
-    percent: React.PropTypes.number,
+    percent: React.PropTypes.string,
     style: React.PropTypes.object
   },
 
