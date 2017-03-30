@@ -1,7 +1,7 @@
 {
   "name": "react-svg-partial-fill",
   "version": "1.0.0",
-  "description": "React component that fills an SVG image by a specified amount",
+  "description": "React component that fills an SVG shape by a specified amount",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,5 +20,17 @@
     "extract-svg-viewbox": "^1.0.0",
     "react": "^15.4.2",
     "normalize-svg-coords": "^1.0.0"
-  }
+  },
+  "directories": {
+    "example": "example"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukem512/react-svg-partial-fill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lukem512/react-svg-partial-fill/issues"
+  },
+  "homepage": "https://github.com/lukem512/react-svg-partial-fill#readme"
 }
